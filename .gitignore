@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Datasets pesados (>100MB não permitidos no GitHub)
+dataset/*.csv
+dataset/*.zip
+*.csv
+
+# Ambientes locais / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
