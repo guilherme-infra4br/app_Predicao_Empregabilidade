@@ -11,6 +11,16 @@ st.set_page_config(
     layout="centered"
 )
 
+# Compatibilidade com desserialização de pipelines scikit-learn (_RemainderColsList)
+try:
+    from sklearn.compose import _column_transformer as _ct
+    if not hasattr(_ct, "_RemainderColsList"):
+        class _RemainderColsList:
+            pass
+        _ct._RemainderColsList = _RemainderColsList
+except Exception:
+    pass
+
 # Carregar o modelo treinado (pipeline com pré-processamento incluso)
 @st.cache_resource
 def carregar_modelo():
