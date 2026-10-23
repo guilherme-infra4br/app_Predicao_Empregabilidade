@@ -1,0 +1,29 @@
+{
+  "intercept": -0.141300597764714,
+  "years_code": {
+    "median": 15.0,
+    "mean": 16.58091356053284,
+    "scale": 10.41484650141273,
+    "coef": 0.43046973588184295
+  },
+  "age_coefficients": {
+    "18-24 years old": -1.179920868845064,
+    "25-34 years old": 0.7040771998945536,
+    "35-44 years old": 1.0227272364475353,
+    "45-54 years old": 0.6295695619601823,
+    "55-64 years old": 0.5801010852848798,
+    "65 years or older": 0.5465479331954296,
+    "Prefer not to say": -0.23903025917936305,
+    "Under 18 years old": -2.1981951549533383
+  },
+  "education_coefficients": {
+    "Associate degree (A.A., A.S., etc.)": 0.2505070599153566,
+    "Bachelor's degree (B.A., B.S., B.Eng., etc.)": 0.40055077826300817,
+    "Master's degree (M.A., M.S., M.Eng., MBA, etc.)": 0.5586302022268608,
+    "Other, please specify": -0.45667260115402053,
+    "Primary/elementary school": -0.6630798923123997,
+    "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 0.4720453100502225,
+    "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": -0.44796419423346123,
+    "Some college/university study without earning a degree": -0.24813992895070572
+  }
+}
